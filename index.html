@@ -1,0 +1,32 @@
+<!<!DOCTYPE html>
+<html lang="tr">
+<head>
+      	<meta charset="UTF-8">
+     	<title>Swapi Star Wars</title>
+     	<meta keywords="Murat Yardım Star Wars Swapi">
+
+      	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
+		<style type="text/css">
+		body {background-image: url('img/backgraund.jpg');background-repeat: no-repeat;}
+		#films {list-style-type:none;}
+		#films li {color: #fff;font-size: 21px;}
+		select {width:700px;height: 30px;}
+		.row {position: absolute;left: 23%;top: 43%;}
+		</style>
+</head>
+
+<body>
+<div class="container">
+	<div class="row">
+			<select name=""  id="starwars" onchange="monstrar_filmes">
+	             <option value="" farinha="farofa">Karakteri Seç</option>
+	</select>
+	<ul id="films">
+	    <li class="film_li">Filmleri</li>
+	</ul>
+	</div>
+</div>
+</body>
+     	<script src="js/swapi.js"></script>
+</html>
